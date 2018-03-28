@@ -19,6 +19,10 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 
 You should also install [govendor](https://github.com/kardianos/govendor) if you are going to add any dependencies to the sample app.
 
+## govendor
+
+https://devcenter.heroku.com/articles/go-dependencies-via-govendor
+
 ## Deploying to Heroku
 
 ```sh
