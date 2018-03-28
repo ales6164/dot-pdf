@@ -1,1 +1,1 @@
-web: dot-pdf
+web: go-getting-started
