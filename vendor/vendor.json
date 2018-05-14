@@ -33,10 +33,10 @@
 			"revisionTime": "2016-08-17T18:46:32Z"
 		},
 		{
-			"checksumSHA1": "CVss9W01Rrm2VlhhjW0z5D35Xo8=",
+			"checksumSHA1": "EYsOd7cI3KDZR35oA4njdyzaeDA=",
 			"path": "github.com/gorilla/mux",
-			"revision": "4dbd923b0c9e99ff63ad54b0e9705ff92d3cdb06",
-			"revisionTime": "2018-03-14T16:31:26Z"
+			"revision": "e3702bed27f0d39777b0b37b664b6280e8ef8fbf",
+			"revisionTime": "2018-05-13T03:22:33Z"
 		},
 		{
 			"checksumSHA1": "MFkrEy77SoBbEtLd3Ros+NZO35w=",
@@ -81,5 +81,5 @@
 			"revision": ""
 		}
 	],
-	"rootPath": "github.com/ales6164/dot-pdf"
+	"rootPath": "github.com/heroku/go-getting-started"
 }
