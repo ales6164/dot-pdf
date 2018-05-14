@@ -49,10 +49,10 @@ func ExampleNewPDFGenerator(html []byte) *bytes.Buffer {
 		log.Fatal(err)
 	}
 	pdfg.PageSize.Set(wkhtmltopdf.PageSizeA4)
-	pdfg.MarginTop.Set(0)
+	/*pdfg.MarginTop.Set(0)
 	pdfg.MarginBottom.Set(0)
 	pdfg.MarginLeft.Set(0)
-	pdfg.MarginRight.Set(0)
+	pdfg.MarginRight.Set(0)*/
 
 	pdfg.OutputFile = ""
 
@@ -77,10 +77,10 @@ func ExampleNewPDFGeneratorURL(url string) *bytes.Buffer {
 	}
 
 	pdfg.PageSize.Set(wkhtmltopdf.PageSizeA4)
-	pdfg.MarginTop.Set(0)
+	/*pdfg.MarginTop.Set(0)
 	pdfg.MarginBottom.Set(0)
 	pdfg.MarginLeft.Set(0)
-	pdfg.MarginRight.Set(0)
+	pdfg.MarginRight.Set(0)*/
 
 	pdfg.OutputFile = ""
 
