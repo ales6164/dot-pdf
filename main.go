@@ -48,6 +48,12 @@ func ExampleNewPDFGenerator(html []byte) *bytes.Buffer {
 	if err != nil {
 		log.Fatal(err)
 	}
+	pdfg.PageSize.Set(wkhtmltopdf.PageSizeA4)
+	pdfg.MarginTop.Set(0)
+	pdfg.MarginBottom.Set(0)
+	pdfg.MarginLeft.Set(0)
+	pdfg.MarginRight.Set(0)
+
 	pdfg.OutputFile = ""
 
 	// Add one page from an URL
@@ -64,12 +70,18 @@ func ExampleNewPDFGenerator(html []byte) *bytes.Buffer {
 }
 
 func ExampleNewPDFGeneratorURL(url string) *bytes.Buffer {
-
 	// Create new PDF generator
 	pdfg, err := wkhtmltopdf.NewPDFGenerator()
 	if err != nil {
 		log.Fatal(err)
 	}
+
+	pdfg.PageSize.Set(wkhtmltopdf.PageSizeA4)
+	pdfg.MarginTop.Set(0)
+	pdfg.MarginBottom.Set(0)
+	pdfg.MarginLeft.Set(0)
+	pdfg.MarginRight.Set(0)
+
 	pdfg.OutputFile = ""
 
 	// Add one page from an URL
