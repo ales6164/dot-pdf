@@ -1,0 +1,9 @@
+# github.com/SebastiaanKlippert/go-wkhtmltopdf v1.6.1
+## explicit
+github.com/SebastiaanKlippert/go-wkhtmltopdf
+# github.com/gorilla/context v1.1.1
+## explicit
+github.com/gorilla/context
+# github.com/gorilla/mux v1.6.2
+## explicit
+github.com/gorilla/mux

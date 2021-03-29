@@ -1,22 +1,20 @@
 package main
 
 import (
-	"log"
-	"os"
-
 	"bytes"
 	"github.com/SebastiaanKlippert/go-wkhtmltopdf"
-
 	"github.com/gorilla/mux"
 	"io/ioutil"
+	"log"
 	"net/http"
+	"os"
 )
 
 func main() {
 	port := os.Getenv("PORT")
 
 	if port == "" {
-		log.Fatal("$PORT must be set")
+		port = "5000"
 	}
 
 	router := mux.NewRouter()
@@ -36,6 +34,8 @@ func main() {
 	})
 
 	http.Handle("/", router)
+
+	log.Print("Listening on port " + port)
 
 	//router.Run(":" + port)
 	log.Fatal(http.ListenAndServe(":"+port, nil))
