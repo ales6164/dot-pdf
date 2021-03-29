@@ -4,12 +4,12 @@ import (
 	"log"
 	"os"
 
-	"github.com/SebastiaanKlippert/go-wkhtmltopdf"
 	"bytes"
+	"github.com/SebastiaanKlippert/go-wkhtmltopdf"
 
-	"net/http"
 	"github.com/gorilla/mux"
 	"io/ioutil"
+	"net/http"
 )
 
 func main() {
